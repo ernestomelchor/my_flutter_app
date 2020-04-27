@@ -48,6 +48,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  String _string = "";
 
   void _incrementCounter() {
     setState(() {
@@ -56,7 +57,19 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter++;
+      if (_counter < 3) {
+        _counter++;
+        _string = "You're getting closer to my favorite number";
+      } else if (_counter < 6) {
+        _counter++;
+        _string = "Closer...";
+      } else if (_counter < 7) {
+        _counter++;
+        _string = "One more click...";
+      } else {
+        _string = "You reached my favorite number! Thanks for playing.";
+        _counter = 8;
+      }
     });
   }
 
@@ -95,12 +108,15 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'You have pushed the red button this many times:',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
             ),
+            Text(
+              '$_string', // Dynamic string that changes when counter reaches 8
+            )
           ],
         ),
       ),
