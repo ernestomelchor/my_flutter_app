@@ -1,17 +1,13 @@
-# my_app
+<!-- WHAT IS THIS APP? -->
 
-A new Flutter project.
+This app provides you with a red button and a prompt to click that button until you discover my favorite number. I used Flutter's sample counter app and modified the code with Dart syntax (which resembles JavaScript in some ways). I did so to create conditional statements and change the text as the user clicks on the red button.
 
-## Getting Started
+<!-- HOW DO I RUN THIS APP? -->
 
-This project is a starting point for a Flutter application.
+To run this app, clone it to your local directory. Install Flutter and Dart, the Android SDK, and the iOS SDK. Visit https://flutter.dev/docs/get-started/install to be guided through the installation process. Afterwards, run `open -a Simulator` in the CLI so that you can see a simulation of a phone itself. Run `flutter doctor` to make sure that you are up and running. If so, then run `flutter run` in the CLI to see the app in action!
 
-A few resources to get you started if this is your first Flutter project:
+<!-- WHY DID I BOTHER MAKING THIS APP? -->
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I made this app because I wanted to explore a mobile framework that is fast and modern. Flutter fit the bill. I also had to learn a little bit of Dart in order to modify the code appropriately. I used https://dart.dev/#try-dart to get started.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# my_flutter_app
+It's important to challenge yourself and not be afraid to jump into a new language or framework. If you're not learning you're not thriving. Have fun with this code and take it anywhere you'd like! Happy coding!

@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // Add font.
         fontFamily: 'Georgia',
       ),
-      home: MyHomePage(title: 'Hello World!'),
+      home: MyHomePage(title: 'Soccer App!'),
     );
   }
 }
@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the red button this many times:',
+              'Push the red button to discover my favorite jersey number:',
             ),
             Text(
               '$_counter',
